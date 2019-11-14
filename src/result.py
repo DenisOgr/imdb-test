@@ -18,7 +18,7 @@ actor_handler = ActorHandler(source_title_principals, actor_dir, ACTORS_SHARDS)
 avg_handler = CountAvgHandler(actor_dir, actor_avg_ratings_dir)
 top_handler = ComputeTopHandler(actor_avg_ratings_dir, source_name_basics, NUM_TOP)
 
-#rating_handler.run()
+rating_handler.run()
 actor_handler.run(rating_handler=rating_handler)
 avg_handler.run_multi()
 top_handler.run()
