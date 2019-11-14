@@ -1,6 +1,6 @@
 ### IMDB task. Compute TOP 10 actors ordered by avg rating
 Using databases from: https://www.imdb.com/interfaces/
-###How to install
+### How to install
 ```
     cd data 
     wget https://datasets.imdbws.com/name.basics.tsv.gz
@@ -15,7 +15,7 @@ Using databases from: https://www.imdb.com/interfaces/
     wget https://datasets.imdbws.com/title.ratings.tsv.gz
     gunzip title.ratings.tsv.gz
 ```
-####How to run:
+#### How to run:
 ```
 cd src
 python ./result.py
